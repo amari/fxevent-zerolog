@@ -39,14 +39,6 @@ func main() {
 }
 ```
 
-### Custom Log Levels
-
-```go
-l := fxeventzerolog.New(&logger)
-l.UseLogLevel(zerolog.DebugLevel)
-l.UseErrorLevel(zerolog.WarnLevel)
-```
-
 ## API
 
 See [zerolog.go](./zerolog.go) for full documentation and implementation details.
